@@ -1,0 +1,24 @@
+#mindmap-container {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #f0f0f0;
+}
+
+.node circle {
+    fill: #fff;
+    stroke: steelblue;
+    stroke-width: 2px;
+}
+
+.node text {
+    font: 14px sans-serif;
+    user-select: none;
+}
+
+.link {
+    fill: none;
+    stroke: #999;
+    stroke-width: 1.5px;
+    stroke-opacity: 0.6;
+}
