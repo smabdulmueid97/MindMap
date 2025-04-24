@@ -1,0 +1,112 @@
+/* ====== GLOBAL LAYOUT ====== */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0f0f0f;
+    color: #e0e0e0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+/* ====== SIDEBAR ====== */
+.sidebar {
+    width: 320px;
+    min-width: 200px;
+    max-width: 600px;
+    background-color: #1a1a1a;
+    border-right: 1px solid #333;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.sidebar h3 {
+    margin-top: 0;
+    color: #90cdf4;
+    font-size: 18px;
+}
+
+/* ====== EDITOR ====== */
+.editor-container {
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    height: 100%;
+    background-color: #0f0f0f;
+    border: 1px solid #444;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.line-numbers {
+    background-color: #1e1e1e;
+    color: #666;
+    padding: 10px 5px;
+    text-align: right;
+    font-family: monospace;
+    font-size: 14px;
+    white-space: pre;
+    user-select: none;
+    overflow: hidden;
+}
+
+#jsonInput {
+    background-color: #0f0f0f;
+    color: #e0e0e0;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 14px;
+    resize: none;
+    line-height: 1.5;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+}
+
+#loadJson {
+    margin-top: 12px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#loadJson:hover {
+    background-color: #1d4ed8;
+}
+
+/* ====== DRAG HANDLE ====== */
+#dragbar {
+    width: 5px;
+    cursor: ew-resize;
+    background-color: #444;
+}
+
+/* ====== MINDMAP CANVAS ====== */
+#mindmap-container {
+    flex-grow: 1;
+    background-color: #121212;
+    overflow: auto;
+    position: relative;
+}
+
+/* ====== NODE + D3 STYLES ====== */
+.node { cursor: pointer; }
+.content-box { fill: #ffffff; stroke: #4CAF50; stroke-width: 2; }
+.topic-text { fill: #111; }
+.content-text { fill: #555; }
+.underline { stroke: #2196F3; stroke-width: 2; }
+.link { stroke: #999; stroke-opacity: 0.6; stroke-width: 1.5px; fill: none; }
