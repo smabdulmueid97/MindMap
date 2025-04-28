@@ -1,0 +1,90 @@
+/* ------------------------------------------------- General Body and HTML Styles ------------------------------------------------- */
+body, html {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    width: 100%; /* Ensure full width */
+    height: 100%; /* Ensure full height */
+    overflow: hidden; /* Prevent scrolling */
+    background-color: #0f0f0f; /* Set dark background color */
+}
+
+/* ------------------------------------------------- Mindmap Container Styles ------------------------------------------------- */
+#mindmap-container {
+    width: 100%; /* Full width of the screen */
+    height: 100%; /* Full height of the screen */
+    background-color: #121212; /* Dark background for mindmap */
+    position: relative; /* Set container to be relative for positioning child elements */
+}
+
+/* ------------------------------------------------- Floating Buttons Container ------------------------------------------------- */
+#floating-buttons {
+    position: absolute; /* Absolute positioning for floating buttons */
+    top: 20px; /* 20px from the top */
+    left: 20px; /* 20px from the left */
+    z-index: 10; /* Set higher layer index for visibility above other elements */
+    display: flex; /* Use flexbox for arranging buttons */
+    gap: 10px; /* Add gap between buttons */
+}
+
+/* ------------------------------------------------- Button Styles ------------------------------------------------- */
+.button {
+    background-color: #2563eb; /* Primary blue background for buttons */
+    color: white; /* White text color */
+    padding: 10px 16px; /* Padding for button size */
+    border: none; /* Remove default border */
+    border-radius: 8px; /* Rounded corners */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    font-size: 14px; /* Set font size */
+}
+
+/* ------------------------------------------------- Button Hover Effect ------------------------------------------------- */
+.button:hover {
+    background-color: #1d4ed8; /* Change to a darker blue on hover */
+}
+
+/* ------------------------------------------------- Full Screen Mindmap Styles (Second Instance) ------------------------------------------------- */
+body, html {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    width: 100%; /* Full width of the screen */
+    height: 100%; /* Full height of the screen */
+    overflow: hidden; /* Prevent scrolling */
+    background-color: white; /* Set white background */
+    color: black; /* Set black text color */
+}
+
+/* ------------------------------------------------- Mindmap Container Styles (Second Instance) ------------------------------------------------- */
+#mindmap-container {
+    width: 100%; /* Full width of the screen */
+    height: 100%; /* Full height of the screen */
+    position: relative; /* Ensure correct positioning for child elements */
+    background-color: white; /* White background for mindmap */
+}
+
+/* ------------------------------------------------- Floating Buttons Container (Second Instance) ------------------------------------------------- */
+#floating-buttons {
+    position: absolute; /* Absolute positioning for floating buttons */
+    top: 20px; /* 20px from the top */
+    left: 20px; /* 20px from the left */
+    z-index: 10; /* Set higher layer index for visibility above other elements */
+    display: flex; /* Use flexbox to arrange buttons */
+    gap: 10px; /* Add gap between buttons */
+}
+
+/* ------------------------------------------------- Button Styles (Second Instance) ------------------------------------------------- */
+.button {
+    background-color: #2563eb; /* Primary blue background for buttons */
+    color: white; /* White text color */
+    padding: 10px 16px; /* Padding for button size */
+    border: none; /* Remove default border */
+    border-radius: 8px; /* Rounded corners */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    font-size: 14px; /* Set font size */
+}
+
+/* ------------------------------------------------- Button Hover Effect (Second Instance) ------------------------------------------------- */
+.button:hover {
+    background-color: #1d4ed8; /* Change to a darker blue on hover */
+}

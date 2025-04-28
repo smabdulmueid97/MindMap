@@ -110,3 +110,42 @@ body {
 .content-text { fill: #555; }
 .underline { stroke: #2196F3; stroke-width: 2; }
 .link { stroke: #999; stroke-opacity: 0.6; stroke-width: 1.5px; fill: none; }
+
+
+/* ====== DRAG AND DROP AREA ====== */
+#drop-area {
+    border: 2px dashed #666;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: #1a1a1a;
+    margin-bottom: 10px;
+    color: #ccc;
+}
+
+#drop-area.highlight {
+    border-color: #6aa84f;
+}
+
+#drop-area p {
+    margin: 0;
+    font-size: 14px;
+}
+
+#fileElem {
+    display: none;
+}
+
+.button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #2563eb;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 8px;
+    font-weight: bold;
+}
+.button:hover {
+    background-color: #1d4ed8;
+}
