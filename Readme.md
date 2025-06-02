@@ -6,3 +6,5 @@ Github live:
 https://smabdulmueid97.github.io/MindMap/index1.html
 https://smabdulmueid97.github.io/MindMap/index2.html
 https://smabdulmueid97.github.io/MindMap/index3.html
+https://smabdulmueid97.github.io/MindMap/index4.html
+https://smabdulmueid97.github.io/MindMap/index5.html
